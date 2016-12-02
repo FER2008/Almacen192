@@ -14,9 +14,18 @@ public class Televisor extends MaquinaElectrica
     byte canal=2;
     byte volumen=0;
     boolean encendido=false;
+    boolean false
+    public void mute(String silence){
+        if (silence.aquals("mute")){
+            System.out.println("...mute...");
+        }
+    }
+    {
+    boolean true
+    }
     
-    public void mute(){}
     public void subirVol(){}
+    
     public void bajarVol()
     {
         if(volumen==0)
@@ -47,5 +56,9 @@ public class Televisor extends MaquinaElectrica
     {    
         encendido=encendido!=true;//Analizar de tarea
     }
+    public void apagarCan()
     
+    
+ 
+        
 }
